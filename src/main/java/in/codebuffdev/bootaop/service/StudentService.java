@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 public class StudentService {
 
     public Student createStudent(Student student){
-        System.out.println("Student saved" + student);
         return student;
     }
 }
