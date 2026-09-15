@@ -38,11 +38,18 @@ For this we take the help of designator
    at which class))
 6. @target → works at class level (pass me a class level anno & it'll interspect all the methods of the class (worked
    with inheritance as well))
-7. target → class level → Target class type  it'll interspect
+7. target → class level → Target class type it'll interspect
 8. args → method level (any method takes a particular arg as method param)
 9. @args → method level (any method takes a particular arg as method param & that param should have a class level anno)
-10. this → class level → proxy class type  it'll interspect
+10. this → class level → proxy class type it'll interspect
 
 * 1st 4 are majorly used.
 
-We can combine designator using any logical (&& , ||, !) bean.  
+We can combine designator using any logical (&& , ||, !) bean.
+
+## Proxy Dp
+
+Ways to create proxy class
+
+1. cglib proxy default in case of spring-aop (class based , proxy inherits concrete class) `spring.aop.proxy-target-class=true`
+2. jdk.dynamic proxy (interface based : we need a common interface of service/Target class ) `spring.aop.proxy-target-class=false` (if we don't have interface the prop key is of no use)
