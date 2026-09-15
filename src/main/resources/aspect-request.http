@@ -1,0 +1,111 @@
+### createStudent
+POST http://localhost:8080/api/students
+
+<> 2026-09-14T104750.200.txt
+
+###
+POST http://localhost:8080/api/students
+
+<> 2026-09-14T105435.200.txt
+
+###
+POST http://localhost:8080/api/students
+
+<> 2026-09-14T114434.200.txt
+
+###
+POST http://localhost:8080/api/students
+
+<> 2026-09-14T115841.200.txt
+<> 2026-09-14T115801.200.txt
+
+###
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+    "it": 0,
+    "name": "",
+    "age": 0
+}
+
+
+<> 2026-09-14T122550.200.json
+<> 2026-09-14T122516.200.json
+<> 2026-09-14T122336.200.json
+<> 2026-09-14T122310.400.json
+
+###
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+    "id": 0,
+    "name": "",
+    "age": 0
+}
+
+<> 2026-09-14T124815.200.json
+
+###
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+    "id": 0,
+    "name": "",
+    "age": 0
+}
+
+<> 2026-09-14T125220.200.json
+
+###
+POST http://localhost:8080/api/students
+
+###
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+    "id": 0,
+    "name": "",
+    "age": 0
+}
+
+<> 2026-09-14T131718.200.json
+
+###
+POST http://localhost:8080/loan/apply
+Content-Type: application/json
+
+{
+    "name": "Sp",
+    "cibil": 634
+}
+
+<> 2026-09-14T192641.500.json
+<> 2026-09-14T192428.500.json
+<> 2026-09-14T192233.500.json
+<> 2026-09-14T192226.200.txt
+<> 2026-09-14T192105.500.json
+<> 2026-09-14T192009.500.json
+
+###
+GET http://localhost:8080/simple
+
+<> 2026-09-15T121848.200.txt
+
+###
+GET http://localhost:8080/simple
+
+<> 2026-09-15T123338.200.txt
+<> 2026-09-15T123336.200.txt
+<> 2026-09-15T123234.200.txt
+
+###
+GET http://localhost:8080/simple
+
+###
+GET http://localhost:8080/simple
+
+<> 2026-09-15T124931.200.txt

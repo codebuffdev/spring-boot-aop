@@ -53,3 +53,7 @@ Ways to create proxy class
 
 1. cglib proxy default in case of spring-aop (class based , proxy inherits concrete class) `spring.aop.proxy-target-class=true`
 2. jdk.dynamic proxy (interface based : we need a common interface of service/Target class ) `spring.aop.proxy-target-class=false` (if we don't have interface the prop key is of no use)
+
+## Custom annotations with AOP
+
+`"@annotations(FQNAnno)"`
